@@ -13,7 +13,7 @@ public class Application {
 	@Test
 	public void verifyInvalidLogin() throws IOException {
 		String[][] data = GenericMethods.getData("D:\\SelOct28\\TestData.xlsx", "Sheet2");
-		
+		//Making changes to application Class
 		for(int i =1; i < data.length; i++) {
 			String keyword = data[i][3];
 			switch(keyword) {
